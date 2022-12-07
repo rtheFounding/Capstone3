@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const baseURL = "https://microbloglite.herokuapp.com";
 
   const loginData = getLoginData();
-  const message = document.getElementById("msgArea")
-  const submit = document.getElementById("messageBtn")
+  const message = document.getElementById("createPost")
+  const submit = document.getElementById("submit")
 
 
 

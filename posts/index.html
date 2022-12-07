@@ -20,8 +20,6 @@
 
     <!-- Run BEFORE page is finished loading (before window.onload): -->
     <script src="/auth.js"></script>
-    
-    <script src="/profile/scripts/profilePage.js"></script>
     <script src="/posts/posts.js"></script>
     <script>
         if (isLoggedIn() === false) window.location.replace("/index.html");
@@ -29,27 +27,16 @@
 </head>
 
 <body>
-    <button type="button" id="logoutBtn" class="btn btn-default btn-sm">
-        <span class="glyphicon glyphicon-log-out"></span> Log out
-    </button>
-
-
     <header>
         <h1>POSTS PAGE</h1>
     </header>
 
-
-    <textarea id="msgArea" name="msgArea" rows="4" cols="60"></textarea>
-    <input id="messageBtn" type="submit">
-
     <button type="button" id="logoutBtn" class="btn btn-default btn-sm">
         <span class="glyphicon glyphicon-log-out"></span> Log out
     </button>
 
-    <a href="/profile/index.html"><button type="button" class="btn btn-default btn-sm">
-            <span class="glyphicon glyphicon-log-out"></span> Profile
-        </button>
-    </a>
+    <a href="/profile/profilePage.html" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-log-out"></span>Profile</a>
     <div class="row">
         <div class="leftcolumn">
             <div id="postArea"></div>

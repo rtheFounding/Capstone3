@@ -51,6 +51,11 @@ header {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .myName {
     cursor: pointer;
     margin-right: 16px;
@@ -88,4 +93,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content:center;
+}
+
+.submitBtn {
+    margin: 0 auto;
+    
 }

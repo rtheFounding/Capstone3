@@ -26,3 +26,10 @@ h1 {
 .buttons button {
     font-size: 1.5rem;
 }
+
+.image {
+    min-width: 20px;
+    height: 100px;
+    padding: 5px;
+    
+}

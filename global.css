@@ -12,3 +12,9 @@
     */
     /* outline: 1px dotted red; */
 }
+
+.navBottom {
+    text-align: center;
+    position:fixed;
+    bottom:0px;
+}

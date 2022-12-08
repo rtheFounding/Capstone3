@@ -1,7 +1,7 @@
 body {
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to bottom right, rgb(14, 82, 170), rgb(204, 82, 123));
+    background: linear-gradient(to bottom right, rgb(129, 177, 240), rgb(20, 65, 161));
     min-height: 100vh;
 }
 
@@ -28,10 +28,7 @@ body {
     max-width: 400px;
     margin: 1rem;
     padding: 2rem;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
-    border-radius: var(--border-radius);
     background: #ffffff;
-
 }
 
 .container,
@@ -134,4 +131,27 @@ body {
 
 .form__link:hover {
     text-decoration: underline;
+}
+
+.main {
+    background-image: url(https://media.tenor.com/f9zQeKW05D0AAAAd/blue-lock-anime.gif);
+    width: 100%;
+    height:fit-content;
+    min-height: 303px;
+    background-size:auto;
+    position: absolute; 
+    top: 0;
+    z-index: -1;
+}
+.description {
+    text-align: center;
+    font-size: 23px;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#box {
+    text-align: center;
 }

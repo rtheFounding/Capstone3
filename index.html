@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="login/style/style.css">
+    <link rel="stylesheet" href="/global.css">
 
 
     <title>Login to the Microblog Network!</title>
@@ -21,38 +22,66 @@
 </head>
 
 <body>
+    <div class="main">
+    </div>
+    </p>
+    <main>
+        
         <header>
-            <h1>Welcome to <code>YOUR MICROBLOG NETWORK</code></h1>
+            <h1>Welcome to <code>Tatakae Club!</code></h1>
         </header>
 
-        <main>
-            <div class="container">
-                <form class="form" id="login">
-                    <h2 class="form__title">Login</h2>
-                    <div class="form__message form__message--error"></div>
-                    <div class="form__input-group">
-                        <input id="username" type="text" class="form__input" autofocus placeholder="Username">
-                        <div class="form__input-error-message"></div>
-                    </div>
-                    <div class="form__input-group">
-                        <input id="password" type="password" class="form__input" placeholder="Password">
-                        <div class="form__input-error-message"></div>
-                    </div>
-                    <button class="form__button" id="loginButton" type="submit">Login</button>
-                    <p class="form__text">
-                        <a href="/register/register.html" class="form__link"> Dont have an account? Register Here</a>
-                    </p>
-                    <p class="form__text">
-                        <a href="#" class="form__link">Forgot your password/username?</a>
-                    </p>
-            </div>
 
-        </main>
 
-        <footer></footer>
 
-        <!-- Page-specific code -->
-        <script src="./landing.js"></script>
+        <div id="box" class="container">
+            <form class="form" id="login">
+                <h2 class="form__title">Login</h2>
+                <div class="form__message form__message--error"></div>
+                <div class="form__input-group">
+                    <input id="username" type="text" class="form__input" autofocus placeholder="Username">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <div class="form__input-group">
+                    <input id="password" type="password" class="form__input" placeholder="Password">
+                    <div class="form__input-error-message"></div>
+                </div>
+                <button class="form__button" id="loginButton" type="submit">Login</button>
+                <p class="form__text">
+                    <a href="/register/register.html" class="form__link"> Dont have an account? Register Here</a>
+                </p>
+                <p class="form__text">
+                    <a href="#" class="form__link">Forgot your password/username?</a>
+                </p>
+            </form>
+        </div>
+
+
+    </main>
+    <h1>About Us</h1>
+    <div class="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+        <p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+        <p>
+    </div>
+    <!-- ========================Bottom of Page============================== -->
+
+    <div class="navBottom">
+        <h3 class="pb-3">Newsletter</h3>
+
+        <form action="">
+            <input type="text" class="sub p-3" placeholder="Enter Your Email">
+            <button class="btns">Subscribe</button>
+        </form>
+
+        <p class="text-center pb-3 Copy">Copyright All rights reserved | Made with by RR.WEEB</p>
+    </div>
+    <!-- Page-specific code -->
+    <script src="./landing.js"></script>
 </body>
 
 </html>

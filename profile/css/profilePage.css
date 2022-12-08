@@ -82,14 +82,10 @@ img {
 }
 
 .right {
-    max-width: 600px;
+    min-width: 600px;
+    min-height: 20%;
     margin: 0 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.topsi {
-    padding-bottom: 6px;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.267);
+    justify-content:center;
 }

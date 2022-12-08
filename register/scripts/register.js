@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             console.log(data);
             localStorage.loginData = data;
             alert("Registration Success. Please Login.")
+            window.location.href = "/index.html"
         })
     });
 });

@@ -1,17 +1,9 @@
-.gradient-custom {
-       /* fallback for old browsers */
-       background: #0f83cf;
-    
-       /* Chrome 10-25, Safari 5.1-6 */
-       background: -webkit-linear-gradient(to bottom right, rgb(249, 250, 252), rgb(20, 1, 1));
-       
-       /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-       background: linear-gradient(to bottom right, rgb(195, 198, 202), rgb(29, 28, 28))
-    }
+body {
 
-    p {
-        font-size: 18px;
-    }
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgb(14, 82, 170), rgb(204, 82, 123));
+    min-height: 100vh;
+}
 
 h1 {
     text-align: center;

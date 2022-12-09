@@ -145,7 +145,8 @@ body {
 }
 .description {
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
+    color: #ffffff;
 }
 h1 {
     text-align: center;

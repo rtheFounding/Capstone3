@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginData = getLoginData();
   const message = document.getElementById("createPost")
   const submit = document.getElementById("submit")
+  const greet = document.getElementById("greetMsg");
 
 
 
@@ -37,6 +38,26 @@ document.addEventListener("DOMContentLoaded", () => {
               // localStorage.setItem("login-data", JSON.stringify(data));
               window.location.href = "/posts/index.html";  // redirect
           });
-  }); //END OF ADDEVENTLISTENER 
+  }); //END OF ADDEVENTLISTENER
+  
+  function findUser(){
+    const div = document.getElementById("greetMsg");
+    const message =  `Welcome <b>${loginData.username}!</b>
+    <br>`;
+
+    div.innerHTML = message;
+}
+
+fetch(baseURL + "/api/users/{username}", {
+    method: "GET",
+    headers: {
+        "accept": "application/json",
+        'Authorization': `Bearer ${loginData.token}`
+    },
+}).then((response)=>{
+    return response.json()
+}).then((data)=>{
+    findUser(greet, data);
+})
 
 });//DOMCONTENTLOADED ENDING

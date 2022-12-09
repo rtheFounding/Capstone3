@@ -15,5 +15,13 @@ It will provide visitors with the option to create a user account and new posts.
 ### The app will be a "walled garden". That is, in order to view any user content, a visitor to the website must first log in as a user.
 
 
+<img src="images/blog1.PNG">
+<img src="images/blog2.PNG">
+<img src="images/blog3.PNG">
+<img src="images/blog4.PNG">
+
+
+
+<img src="images/code.PNG">
 Working on this function was honestly the best part of this project, looking up on how to implment the code together. Working with a partner, it brought that sense of collaboration, trial and error. Long hours on trying to figure out the JavaScript code. In the end 
 it brought a big smile to my face.

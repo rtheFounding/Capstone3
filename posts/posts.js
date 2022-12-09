@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginData = getLoginData();
     const postArea = document.getElementById("postArea");
     const baseURL = "https://microbloglite.herokuapp.com";
-    const endpoint = "/api/posts";
+    const endpoint = "/api/posts?limit=10000&offset=0";
 
     function buildCard(section, post) {
         //created the card

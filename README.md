@@ -12,8 +12,7 @@ https://microbloglite.herokuapp.com/docs/
 
 It will provide visitors with the option to create a user account and new posts. (The MicroblogLite API does not provide functionality for users to follow each other or to comment on posts)
 
-### The app will be a "walled garden". That is, in order to view any user content, a visitor to the website must first log in as 
-### a user.
+### The app will be a "walled garden". That is, in order to view any user content, a visitor to the website must first log in as a user.
 
 
 Working on this function was honestly the best part of this project, looking up on how to implment the code together. Working with a partner, it brought that sense of collaboration, trial and error. Long hours on trying to figure out the JavaScript code. In the end 
